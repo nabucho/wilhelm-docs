@@ -1,22 +1,23 @@
 # `0xaa`
 
-## Scale KM
+## Scale 
 
 > When the map mode has been activated, you can call up all valid scales with the commands *"scale 400 feet"* to *"scale 50 miles"*.
 > 
 > Valid scales are:  
-> - 400 or 800 feet  > - 0.25, 0.5, 1, 2.5, 5, 10, 25 or 50 miles.
+> - 400 or 800 feet  
+> - 0.25, 0.5, 1, 2.5, 5, 10, 25 or 50 miles.
 
-    B0 05 7F AA 10 01 71  # 100m
-    B0 05 7F AA 10 02 72  # 200m
-    B0 05 7F AA 10 04 74  # 500m
-    B0 05 7F AA 10 10 60  # 1km
-    B0 05 7F AA 10 11 61  # 2km
-    B0 05 7F AA 10 12 62  # 5km
-    B0 05 7F AA 10 13 63  # 10m
-    B0 05 7F AA 10 14 64  # 20km
-    B0 05 7F AA 10 15 64  # 50km
-    B0 05 7F AA 10 16 66  # 100km
+    B0 05 7F AA 10 01 71  # 100m    125yds
+    B0 05 7F AA 10 02 72  # 200m    250yds
+    B0 05 7F AA 10 04 74  # 500m    450yds
+    B0 05 7F AA 10 10 60  # 1km     900yds
+    B0 05 7F AA 10 11 61  # 2km     1mls
+    B0 05 7F AA 10 12 62  # 5km     2.5mls
+    B0 05 7F AA 10 13 63  # 10m     5mls
+    B0 05 7F AA 10 14 64  # 20km    10mls
+    B0 05 7F AA 10 15 64  # 50km    25mls
+    B0 05 7F AA 10 16 66  # 100km   50mls
     B0 05 7F AA 10 18 68  # 200km
     B0 05 7F AA 10 19 69  # 500km
     B0 05 7F AA 10 1A 6A  # 1000km
